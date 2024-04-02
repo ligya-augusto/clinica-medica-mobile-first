@@ -12,8 +12,10 @@
 
 body {
     background-color: var(--cinza-background);
-    margin: 7% 5%;
     font-family: var(--fonte);
+}
+.container {
+    margin: 7% 5%;
 }
 .container-cabecalho {
     display: flex;
@@ -121,4 +123,28 @@ body {
     color: var(--branco);
     padding: 4%;
     border-radius: 8px;
+}
+.rodape {
+    background-color: var(--branco);
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px 12px 0 0;
+    position: sticky;
+    bottom: 0;
+}
+.menu-rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rodape-imagem {
+    width: 20px;
+    margin-bottom: 5%;
+}
+.rodape-titulo {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--cinza);
 }
