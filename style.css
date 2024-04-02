@@ -1,0 +1,124 @@
+:root {
+    --cinza-background: #E5E5E5;
+   --cinza: #464646; 
+   --branco: #fff;
+   --cinza-claro: #a3a3a3;
+   --cinza-mais-claro: #ECECEC;
+   --laranja: #FFB050;
+   --azul: #4894FF;
+
+   --fonte: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: var(--cinza-background);
+    margin: 7% 5%;
+    font-family: var(--fonte);
+}
+.container-cabecalho {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.container-imagem {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+}
+.titulo {
+    font-size: 1.37rem;
+    font-weight: 700;
+    color: var(--cinza);
+    padding: 7% 10%;
+}
+.texto {
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: var(--cinza-claro);
+    padding-left: 10%;
+    width: 100%;
+}
+.container-titulo {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--cinza);
+    padding-bottom: 5%;
+}
+.container-consulta {
+    background-color: var(--branco);
+    padding: 5%;
+    border-radius: 8px;
+    margin-bottom: 5%;
+}
+.consulta-cliente {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--cinza-mais-claro);
+    padding-bottom: 3%;
+}
+.consulta-cliente__nome {
+    margin-right: 7em;
+}
+.consulta-imagem {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.consulta-titulo {
+    font-size: 0.87rem;
+    font-weight: 700;
+    color: var(--cinza);
+    padding: 0.5em;
+}
+.consulta-mensagem { 
+    margin-right: 1em;
+}
+.consulta-pin__cam {
+    margin-left: 0.5em;
+}
+.consulta-hora {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--cinza);
+    padding: 3% 0;
+}
+.consulta-texto {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--cinza-claro);
+}
+.ligacao-video {
+    font-size: 0.87rem;
+    font-weight: 500;
+    color: var(--branco);
+    background-color: var(--laranja);
+    padding: 4%;
+    border-radius: 8px;
+    width: 45%;
+}
+.ligacao-audio {
+    font-size: 0.87rem;
+    font-weight: 500;
+    color: var(--cinza);
+    background-color: var(--branco);
+    padding: 4%;
+    border: 1px solid var(--cinza-mais-claro);
+    border-radius: 8px;
+    margin-left: 5%;
+    width: 45%;
+}
+.consulta-tipo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.endereço {
+    width: 100%;
+    background-color: var(--azul);
+    font-size: 0.87rem;
+    font-weight: 500;
+    color: var(--branco);
+    padding: 4%;
+    border-radius: 8px;
+}
