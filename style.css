@@ -133,6 +133,7 @@ body {
     border-radius: 12px 12px 0 0;
     position: sticky;
     bottom: 0;
+    margin: 0.5%;
 }
 .menu-rodape {
     display: flex;
@@ -141,10 +142,45 @@ body {
 }
 .rodape-imagem {
     width: 20px;
+    height: 22px;
     margin-bottom: 5%;
 }
 .rodape-titulo {
     font-size: 0.75rem;
     font-weight: 400;
     color: var(--cinza);
+}
+.tablet {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        margin: 3%;
+    }
+    .container-cabecalho {
+        margin-bottom: 0;
+    }
+    .container-titulo {
+        padding: 2%;
+    }
+    .container-consulta {
+        padding: 3%;
+        margin: 0 10% 10% 0;
+    }
+    .container-tudo {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .consulta-cliente__nome {
+        margin-right: 10em;
+    }
+    .tablet {
+        display: block;
+    }
+    .rodape {
+        justify-content: center;
+        gap: 30px;
+        padding: 2%;
+    }
 }
