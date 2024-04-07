@@ -28,13 +28,13 @@ body {
     border-radius: 50%;
 }
 .titulo {
-    font-size: 1.37rem;
+    font-size: 1.4rem;
     font-weight: 700;
     color: var(--cinza);
     padding: 7% 10%;
 }
 .texto {
-    font-size: 0.87rem;
+    font-size: 0.9rem;
     font-weight: 400;
     color: var(--cinza-claro);
     padding-left: 10%;
@@ -182,5 +182,28 @@ body {
         justify-content: center;
         gap: 30px;
         padding: 2%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .titulo { 
+        font-size: 1.9rem;
+        width: 100%;
+    }
+    .texto {
+        font-size: 1.12rem;
+    }
+    .container-consulta {
+        width: 88%;
+    }
+    .consulta-titulo {
+        width: 100%;
+    }
+    
+    .container-tudo {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    .desktop {
+        display: none;
     }
 }
